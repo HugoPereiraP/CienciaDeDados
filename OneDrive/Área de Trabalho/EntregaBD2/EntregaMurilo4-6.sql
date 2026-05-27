@@ -1,0 +1,51 @@
+CREATE OR REPLACE FUNCTION EH_PRIMO (
+    P_NUM IN NUMBER
+) RETURN VARCHAR2
+IS
+    V_CONT NUMBER := 0;
+BEGIN
+
+    IF P_NUM < 2 THEN
+        RETURN 'NAO PRIMO';
+    END IF;
+
+    FOR I IN 1 .. P_NUM LOOP
+        IF MOD(P_NUM, I) = 0 THEN
+            V_CONT := V_CONT + 1;
+        END IF;
+    END LOOP;
+
+    IF V_CONT = 2 THEN
+        RETURN 'PRIMO';
+    ELSE
+        RETURN 'NAO PRIMO';
+    END IF;
+END;
+/
+
+CREATE OR REPLACE FUNCTION EH_PRIMO (
+    P_NUM IN NUMBER
+) RETURN VARCHAR2
+IS
+    V_CONT NUMBER := 0;
+BEGIN
+   
+    IF P_NUM < 2 THEN
+        RETURN 'NAO PRIMO';
+    END IF;
+
+   
+    FOR I IN 1 .. P_NUM LOOP
+        IF MOD(P_NUM, I) = 0 THEN
+            V_CONT := V_CONT + 1;
+        END IF;
+    END LOOP;
+
+  
+    IF V_CONT = 2 THEN
+        RETURN 'PRIMO';
+    ELSE
+        RETURN 'NAO PRIMO';
+    END IF;
+END;
+/
