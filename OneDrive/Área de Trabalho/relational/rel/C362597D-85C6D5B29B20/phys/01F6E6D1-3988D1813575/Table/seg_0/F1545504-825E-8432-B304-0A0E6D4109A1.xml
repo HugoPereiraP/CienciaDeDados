@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="USUARIO" directorySegmentName="seg_0" id="F1545504-825E-8432-B304-0A0E6D4109A1">
+<createdBy>hugop</createdBy>
+<createdTime>2026-05-27 12:17:54 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<schemaObject>C79F058B-86CD-01AE-E65A-577ED24EB5A4</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>CAAB9D72-71CE-B74D-B997-518612B01919</segment>
+<tableSpace>3EB43EBF-0874-EA42-6C3D-CE154353969F</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NOME" id="1B04C49D-4359-916E-E1E0-BC2828841F89">
+<createdBy>hugop</createdBy>
+<createdTime>2026-05-27 12:17:55 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_USUARIO" id="7EEB591E-1B93-86E1-EABF-D02B4673B618">
+<createdBy>hugop</createdBy>
+<createdTime>2026-05-27 12:17:55 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMAIL" id="8B0673B5-8DF9-6BEC-2D27-FD23578A7821">
+<createdBy>hugop</createdBy>
+<createdTime>2026-05-27 12:17:55 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SALDO" id="E4FA9998-37B1-2E7B-7293-72E32E7A5BF4">
+<createdBy>hugop</createdBy>
+<createdTime>2026-05-27 12:17:55 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="USUARIO_PK" id="349E5130-D42B-A72B-1E07-AA386EB6BA41">
+<createdBy>hugop</createdBy>
+<createdTime>2026-05-27 12:18:06 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<schemaObject>C79F058B-86CD-01AE-E65A-577ED24EB5A4</schemaObject>
+<segment>18435070-C912-386F-34EC-5C44B1808DCF</segment>
+<tableSpace>3EB43EBF-0874-EA42-6C3D-CE154353969F</tableSpace>
+<indexSegment>18435070-C912-386F-34EC-5C44B1808DCF</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

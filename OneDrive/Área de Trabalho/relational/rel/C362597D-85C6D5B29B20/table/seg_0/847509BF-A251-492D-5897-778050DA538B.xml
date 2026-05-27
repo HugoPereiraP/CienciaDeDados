@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="847509BF-A251-492D-5897-778050DA538B" schemaObject="C79F058B-86CD-01AE-E65A-577ED24EB5A4" name="CATEGORIA">
+<sourceConnName>Rock</sourceConnName>
+<sourceObjSchema>C##BRIBND2_HUGO</sourceObjSchema>
+<sourceObjName>CATEGORIA</sourceObjName>
+<createdBy>hugop</createdBy>
+<createdTime>2026-05-27 12:17:54 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CATEGORIA" id="1CA6AFF8-EAC5-CBC1-30FD-2E82F8BBB26B">
+<sourceConnName>Rock</sourceConnName>
+<sourceObjSchema>CATEGORIA</sourceObjSchema>
+<sourceObjName>ID_CATEGORIA</sourceObjName>
+<createdBy>hugop</createdBy>
+<createdTime>2026-05-27 12:17:55 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME" id="134C7299-8D07-1D24-6622-649310C7ED65">
+<sourceConnName>Rock</sourceConnName>
+<sourceObjSchema>CATEGORIA</sourceObjSchema>
+<sourceObjName>NOME</sourceObjName>
+<createdBy>hugop</createdBy>
+<createdTime>2026-05-27 12:17:55 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1103B467-6FB4-3D21-B523-0E3D2F7CE90E" schemaObject="C79F058B-86CD-01AE-E65A-577ED24EB5A4" name="CATEGORIA_PK">
+<sourceConnName>Rock</sourceConnName>
+<sourceObjSchema>C##BRIBND2_HUGO</sourceObjSchema>
+<sourceObjName>SYS_C0031666</sourceObjName>
+<createdBy>hugop</createdBy>
+<createdTime>2026-05-27 12:18:05 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1CA6AFF8-EAC5-CBC1-30FD-2E82F8BBB26B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

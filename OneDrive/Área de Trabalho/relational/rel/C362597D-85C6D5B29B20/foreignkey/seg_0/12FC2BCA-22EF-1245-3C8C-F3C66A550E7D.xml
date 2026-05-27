@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="12FC2BCA-22EF-1245-3C8C-F3C66A550E7D" containerWithKeyObject="F376A91F-5AA3-13B2-FFCA-4D11D4E9DCD5" localFKIndex="93CCBDDF-FFE6-3BC4-69BE-94D3D1F666E3" name="FK_JOGO_CATEGORIA">
+<sourceConnName>Rock</sourceConnName>
+<sourceObjSchema>C##BRIBND2_HUGO</sourceObjSchema>
+<sourceObjName>FK_JOGO_CATEGORIA</sourceObjName>
+<createdBy>hugop</createdBy>
+<createdTime>2026-05-27 12:18:09 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<referredTableLongName>C##BRIBND2_HUGO.CATEGORIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>847509BF-A251-492D-5897-778050DA538B</referredTableID>
+<keyObject>1103B467-6FB4-3D21-B523-0E3D2F7CE90E</keyObject>
+<referredKeyID>1103B467-6FB4-3D21-B523-0E3D2F7CE90E</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_CATEGORIA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D9AECDF5-8E48-F4BE-928F-24619DF44F54" schemaObject="C79F058B-86CD-01AE-E65A-577ED24EB5A4" name="ITEMPEDIDO">
+<sourceConnName>Rock</sourceConnName>
+<sourceObjSchema>C##BRIBND2_HUGO</sourceObjSchema>
+<sourceObjName>ITEMPEDIDO</sourceObjName>
+<createdBy>hugop</createdBy>
+<createdTime>2026-05-27 12:17:54 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ITEM" id="8873A0CC-7082-7BFE-418E-7541369668C1">
+<sourceConnName>Rock</sourceConnName>
+<sourceObjSchema>ITEMPEDIDO</sourceObjSchema>
+<sourceObjName>ID_ITEM</sourceObjName>
+<createdBy>hugop</createdBy>
+<createdTime>2026-05-27 12:17:55 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PEDIDO" id="DC1072EA-31FC-B20C-8DD2-5AD23C6C6849">
+<sourceConnName>Rock</sourceConnName>
+<sourceObjSchema>ITEMPEDIDO</sourceObjSchema>
+<sourceObjName>ID_PEDIDO</sourceObjName>
+<createdBy>hugop</createdBy>
+<createdTime>2026-05-27 12:17:55 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="81F8D319-F225-0C44-D7A7-0F3C61D25FBF" referredColumn="372487CB-42D2-2005-A7DF-39E5BE58EBF6"/>
+</associations>
+</Column>
+<Column name="ID_JOGO" id="902D0BCA-6C76-CFCA-EA41-46DD80008575">
+<sourceConnName>Rock</sourceConnName>
+<sourceObjSchema>ITEMPEDIDO</sourceObjSchema>
+<sourceObjName>ID_JOGO</sourceObjName>
+<createdBy>hugop</createdBy>
+<createdTime>2026-05-27 12:17:55 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="34DCD3E3-034D-E8EB-90A1-6162024DD813" referredColumn="62741654-E980-B5E3-2A18-F82B7045FDE2"/>
+</associations>
+</Column>
+<Column name="PRECO" id="4A33C5F8-0A02-F3AC-9A53-A5CA608DAB36">
+<sourceConnName>Rock</sourceConnName>
+<sourceObjSchema>ITEMPEDIDO</sourceObjSchema>
+<sourceObjName>PRECO</sourceObjName>
+<createdBy>hugop</createdBy>
+<createdTime>2026-05-27 12:17:55 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7347F225-9B9C-07C0-06F0-CA91D76E55A6" schemaObject="C79F058B-86CD-01AE-E65A-577ED24EB5A4" name="ITEMPEDIDO_PK">
+<sourceConnName>Rock</sourceConnName>
+<sourceObjSchema>C##BRIBND2_HUGO</sourceObjSchema>
+<sourceObjName>SYS_C0031682</sourceObjName>
+<createdBy>hugop</createdBy>
+<createdTime>2026-05-27 12:18:05 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8873A0CC-7082-7BFE-418E-7541369668C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1EA32431-274A-EC36-BE95-726527009FB3" name="FK_ITEMPEDIDO_JOGO">
+<createdBy>hugop</createdBy>
+<createdTime>2026-05-27 12:18:09 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="902D0BCA-6C76-CFCA-EA41-46DD80008575"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B51EA9F-9CC8-8B05-8267-DB1285A2D0D9" name="FK_ITEMPEDIDO_PEDIDO">
+<createdBy>hugop</createdBy>
+<createdTime>2026-05-27 12:18:09 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC1072EA-31FC-B20C-8DD2-5AD23C6C6849"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

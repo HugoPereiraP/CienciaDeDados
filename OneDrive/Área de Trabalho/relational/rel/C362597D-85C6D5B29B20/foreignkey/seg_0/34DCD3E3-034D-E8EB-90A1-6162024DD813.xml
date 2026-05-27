@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="34DCD3E3-034D-E8EB-90A1-6162024DD813" containerWithKeyObject="D9AECDF5-8E48-F4BE-928F-24619DF44F54" localFKIndex="1EA32431-274A-EC36-BE95-726527009FB3" name="FK_ITEMPEDIDO_JOGO">
+<sourceConnName>Rock</sourceConnName>
+<sourceObjSchema>C##BRIBND2_HUGO</sourceObjSchema>
+<sourceObjName>FK_ITEMPEDIDO_JOGO</sourceObjName>
+<createdBy>hugop</createdBy>
+<createdTime>2026-05-27 12:18:09 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<referredTableLongName>C##BRIBND2_HUGO.JOGO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F376A91F-5AA3-13B2-FFCA-4D11D4E9DCD5</referredTableID>
+<keyObject>72F220D6-5422-21A8-93C3-BEF55E171298</keyObject>
+<referredKeyID>72F220D6-5422-21A8-93C3-BEF55E171298</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_JOGO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

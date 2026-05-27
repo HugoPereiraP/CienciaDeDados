@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EEF4DE0C-FE20-344C-F289-61D3D41DE0EF" containerWithKeyObject="FBE0FD22-A12D-B9EA-786B-632998FCA1AA" localFKIndex="DDFA2BEF-0A86-070A-CC4D-2EAB4A0E8905" name="FK_PEDIDO_CUPOM">
+<sourceConnName>Rock</sourceConnName>
+<sourceObjSchema>C##BRIBND2_HUGO</sourceObjSchema>
+<sourceObjName>FK_PEDIDO_CUPOM</sourceObjName>
+<createdBy>hugop</createdBy>
+<createdTime>2026-05-27 12:18:09 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<referredTableLongName>C##BRIBND2_HUGO.CUPOM</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>00CBC6AE-49C6-A1C1-247D-D031B72870D9</referredTableID>
+<keyObject>C562186F-BDDD-B432-2E9B-1D6AE69958CA</keyObject>
+<referredKeyID>C562186F-BDDD-B432-2E9B-1D6AE69958CA</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_CUPOM</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

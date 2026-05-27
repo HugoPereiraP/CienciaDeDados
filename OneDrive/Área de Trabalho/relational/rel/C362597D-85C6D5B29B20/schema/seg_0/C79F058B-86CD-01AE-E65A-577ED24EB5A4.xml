@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="C##BRIBND2_HUGO" directorySegmentName="seg_0" id="C79F058B-86CD-01AE-E65A-577ED24EB5A4">
+<createdBy>hugop</createdBy>
+<createdTime>2026-05-27 12:17:54 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+</SchemaObject>

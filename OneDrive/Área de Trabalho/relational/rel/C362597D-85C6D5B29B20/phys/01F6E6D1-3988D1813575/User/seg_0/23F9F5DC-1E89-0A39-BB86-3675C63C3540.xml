@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="C##BRIBND2_HUGO" directorySegmentName="seg_0" id="23F9F5DC-1E89-0A39-BB86-3675C63C3540">
+<sourceConnName>Rock</sourceConnName>
+<sourceObjName>C##BRIBND2_HUGO</sourceObjName>
+<createdBy>hugop</createdBy>
+<createdTime>2026-05-27 12:17:51 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<schemaObject>C79F058B-86CD-01AE-E65A-577ED24EB5A4</schemaObject>
+</UserOraclev10g>

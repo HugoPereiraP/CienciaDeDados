@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="JOGO" directorySegmentName="seg_0" id="F376A91F-5AA3-13B2-FFCA-4D11D4E9DCD5">
+<createdBy>hugop</createdBy>
+<createdTime>2026-05-27 12:17:54 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<schemaObject>C79F058B-86CD-01AE-E65A-577ED24EB5A4</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>CAAB9D72-71CE-B74D-B997-518612B01919</segment>
+<tableSpace>3EB43EBF-0874-EA42-6C3D-CE154353969F</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PRECO" id="1935103B-8119-2305-E61E-5862BEB3FAF2">
+<createdBy>hugop</createdBy>
+<createdTime>2026-05-27 12:17:55 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOME" id="39A256EE-3927-8430-0E30-E329531C5BA1">
+<createdBy>hugop</createdBy>
+<createdTime>2026-05-27 12:17:55 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ESTOQUE_LICENCAS" id="3F89F80B-9D72-B361-1C79-D66B9D54AAF7">
+<createdBy>hugop</createdBy>
+<createdTime>2026-05-27 12:17:55 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_CATEGORIA" id="557238EB-94DF-CFF3-1C29-5C760C92CAFE">
+<createdBy>hugop</createdBy>
+<createdTime>2026-05-27 12:17:55 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_JOGO" id="62741654-E980-B5E3-2A18-F82B7045FDE2">
+<createdBy>hugop</createdBy>
+<createdTime>2026-05-27 12:17:55 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_JOGO_CATEGORIA" id="93CCBDDF-FFE6-3BC4-69BE-94D3D1F666E3">
+<createdBy>hugop</createdBy>
+<createdTime>2026-05-27 12:18:09 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="JOGO_PK" id="72F220D6-5422-21A8-93C3-BEF55E171298">
+<createdBy>hugop</createdBy>
+<createdTime>2026-05-27 12:18:06 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<schemaObject>C79F058B-86CD-01AE-E65A-577ED24EB5A4</schemaObject>
+<segment>18435070-C912-386F-34EC-5C44B1808DCF</segment>
+<tableSpace>3EB43EBF-0874-EA42-6C3D-CE154353969F</tableSpace>
+<indexSegment>18435070-C912-386F-34EC-5C44B1808DCF</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

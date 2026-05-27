@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="DF13C623-396F-C1AA-BA53-FCACFDB756D1" mainViewID="8831D9A3-CF7A-9079-2D17-62DCB260773F">
+<createdBy>hugop</createdBy>
+<createdTime>2026-05-27 12:16:16 UTC</createdTime>
+<ownerDesignName>relational</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
